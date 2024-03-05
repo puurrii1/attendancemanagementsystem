@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'undefo';
+    src: url(../fonts/undefined-medium.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'undefo';
+}
+.forum{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1, h3{
+    text-align: center;
+    margin: 10px;
+}
+label{
+    margin: 10px;
+}
+input{
+    margin: 10px;
+}
+#name, #email, #address{
+    height: 40px;
+    width: 22vw;
+    padding: 10px;
+}
+label{
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #07041d;
+}
+a:hover{
+    text-decoration: underline;
+}
+#submit{
+    height: 7vh;
+    margin: 40px;
+    width: 10vw;
+    background: transparent; 
+    outline: none;
+    border: 1px solid #383737;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: #2b1313;
+    box-shadow: 0px 0px 5px 1px #07041d;
+}
+@media screen and (max-width:550px) {
+ 
+h1{
+    text-align: center;
+    margin: 5px;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+h3{
+    margin: 10px;
+    font-size: 1.2rem;
+}
+label{
+    margin: 8px;
+    font-size: 0.9rem;
+}
+input{
+    margin: 5px;
+}
+#name, #email, #address{
+    height: 40px;
+    width: 62vw;
+    padding: 10px;
+}
+label{
+    font-size: 22px;
+}
+#submit{
+    height: 7vh;
+    margin: 40px;
+    width: 30vw;
+    background: transparent; 
+    outline: none;
+    border: 1px solid #383737;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: #2b1313;
+    box-shadow: 0px 0px 5px 1px #07041d;
+}   
+}

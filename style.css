@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "undefo";
+    src: url(./fonts/undefined-medium.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: "undefo", sans-serif;
+    white-space: pre-line;
+}
+.center{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.header{
+    font-size: 24px;
+    white-space: pre-line;
+    text-align: center;
+    margin: 10px;
+}
+.menu{
+    margin: 10px;
+    font-weight: 500;
+}
+
+ul li {
+    list-style: none;
+    text-align: center;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    font-weight: 700;
+    color: #007BFF; /* Hover color */
+}
+
+@media screen and (max-width: 550px) {
+    .header {
+        font-size: 1.5rem;
+    }
+
+    .menu {
+        font-size: 1rem;
+    }
+
+    ul li {
+        font-size: 0.8rem;
+    }
+}
